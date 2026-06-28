@@ -1,0 +1,53 @@
+{
+    // タブのサイズを8に設定
+    "editor.tabSize": 8,
+
+    // カーソルのスタイルを「ライン」に設定
+    "editor.cursorStyle": "line",
+
+    // タブにスペースではなく、タブ文字を使用
+    "editor.insertSpaces": false,
+
+    // 行番号を常に表示
+    "editor.lineNumbers": "on",
+
+    // 単語区切りの文字を指定
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+
+    // エディタ内で単語が長くても自動折り返しをしない
+    "editor.wordWrap": "off",
+
+    // `.ipynb`ファイルをJupyter Notebook形式で開く設定
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+
+
+    // エディタ右側のミニマップを無効化
+    //"editor.minimap.enabled": false,
+
+    // 特定の拡張機能の優先度を設定（拡張機能の優先実行の設定）
+    "extensions.experimental.affinity": {
+        "ms-toolsai.jupyter": 1,
+        "ms-toolsai.jupyter-renderers": 1,
+        "ms-python.python": 1
+    },
+
+    // 引数がないときに新しいウィンドウを開く設定
+    "window.openWithoutArgumentsInNewWindow": "on",
+    "workbench.iconTheme": "material-icon-theme",
+
+    // 統合ターミナルで環境変数を継承しない設定
+    "terminal.integrated.inheritEnv": false,
+
+    // ターミナル上で選択すると自動でコピー
+    "terminal.integrated.copyOnSelection": true,
+
+    // ターミナル上で右クリックでペースト
+    "terminal.integrated.rightClickBehavior": "paste",
+
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "-workbench.action.quickOpenView",
+    ]
+}
